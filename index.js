@@ -5,7 +5,7 @@ const totalSapn = document.getElementById("total");
 
 function calculateTotal() {
   const billValue = billInput.value;
-  const tipValue = tip.value;
+  const tipValue = tipInput.value;
   const totalValue = billValue * (1 + tipValue / 100);
   totalSapn.innerText = totalValue.toFixed(2);
 }
